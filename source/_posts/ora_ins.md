@@ -24,17 +24,17 @@ date : 2022-04-29 21:35:00
 
 ![](/images/oracle/Untitled.png)
 
-![](/images/oracle/Untitled 1.png)
+![](/images/oracle/Untitled1.png)
 
-![](/images/oracle/Untitled 2.png)
+![](/images/oracle/Untitled2.png)
 
 → 전역 데이터 베이스 이름 : myoracle, 비번 : 1234, ‘컨테이너 데이터베이스로 생성’ 옵션 해제
 
 - 설치하려는데 다음과 같은 오류 발생 - 일단 창 닫으니 설치가 진행되고 완료가 되었음
 
-![](/images/oracle/Untitled 3.png)
+![](/images/oracle/Untitled3.png)
 
-![](/images/oracle/Untitled 4.png)
+![](/images/oracle/Untitled4.png)
 
 - 설치가 끝났으면 SQL Plus로 들어간다 (관리자 권한으로 실행)
 - 테이블스페이스를 생성해준다 (oradata-MYORACLE이 있는 경로를 확인한다 → 나의 경우sql_lecture에 있음)
@@ -76,7 +76,7 @@ connect ora_user/ohse;
 - 파일 → 새 파일 만들기 → 아래와 같이 입력 후 test 시행
     - 이 때 사용자 이름은 위에서 IDENTIFIED에 입력한 ora_user를 입력하고 비밀번호는 1234가 아니라 ohse를 입력하니까 실행되었음
 
-![](/images/oracle/Untitled 5.png)
+![](/images/oracle/Untitled5.png)
 
 - 테스트가 성공했으면 <접속>을 클릭 (혹은 <접속> 버튼이 없으면<저장> 후 접속하면 됨)
 - 도구 → 환경설정 → 시간 기록 형식 (P)에 YYYY/MM/DD HH24:MI:SS로 바꾼다
@@ -91,7 +91,7 @@ connect ora_user/ohse;
     - imp ora_user/ohse file=expcust.dmp log=expcust.log ignore=y grants=y rows=y indexes=y full=y
 - SQL Developer 질의 입력 창에 ‘SELECT table_name FROM user_tables;’ 입력후 정상적으로 실행되는 지 확인
 
-![](/images/oracle/Untitled 6.png)
+![](/images/oracle/Untitled6.png)
 
 ---
 
