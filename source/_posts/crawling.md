@@ -1,3 +1,13 @@
+---
+title: "crawling basic"
+categories :
+    - crawling
+tag :
+  - crawling
+  - 
+author : "Oh seungeun"
+date : 2022-05-01 23:11:00
+---
 # 크롤링 기초
 
 Python
@@ -20,16 +30,16 @@ Python
 
 - 네이버 같은 사이트에서 마우스 우클릭 → 검사로 가면 그 페이지의 html 형태? 를 볼 수 있다
 
-![Untitled](%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%80%E1%85%B5%E1%84%8E%E1%85%A9%20532429dab80b43618e176d38ec8c1934/Untitled.png)
+![Untitled](/images/crawling/Untitled.png)
 
 ### 파이참으로 실습
 
 - crawling 프로젝트 파일 생성
 - (가상환경 세팅) 상단 탭 File → Settings →  Project: crawling → Python Interpreter → 세팅 아이콘 클릭 → add 클릭 → new environment 클릭
 
-![Untitled](%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%80%E1%85%B5%E1%84%8E%E1%85%A9%20532429dab80b43618e176d38ec8c1934/Untitled%201.png)
+![Untitled](/images/crawling/Untitled%201.png)
 
-![Untitled](%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%80%E1%85%B5%E1%84%8E%E1%85%A9%20532429dab80b43618e176d38ec8c1934/Untitled%202.png)
+![Untitled](/images/crawling/Untitled%202.png)
 
 - 터미널에서 가상환경 세팅(source venv/Scripts/activate 명령어 입력) 후 필요한 라이브러리들 설치 (pandas, numpy, beautifulsoup4, requests 등등)
 - html 파일을 만든다 (crawling 우클릭→ new → html) 파일명은 임의로 index로 설정
