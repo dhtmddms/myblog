@@ -1,11 +1,11 @@
----- 
+---
 title: "아나콘다 설치"
 categories :
   - settings
   - 
 author : "Oh seungeun"
 date : 2022-05-01 13:03:00
-----
+---
 
 # 아나콘다 설치
 
