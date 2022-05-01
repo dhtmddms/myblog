@@ -1,3 +1,4 @@
+---
 title: "SQL basic"
 categories :
   - oracle
@@ -6,7 +7,7 @@ tag :
   - sql
 author : "Oh seungeun"
 date : 2022-05-01 23:11:00
-
+---
 # SQL
 
 ## SELECT문
