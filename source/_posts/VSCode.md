@@ -23,7 +23,7 @@ date : 2022-05-03 10:42:00
 - open folder 클릭→ WSL에서 설치했던 airflow-test 파일을 선택한다
 - 해당 프로젝트를 열고 상단 메뉴바의 Terminal을 선택 → 하단의 화살표 클릭 → Ubuntu(WSL) 클릭
 
-![Untitled](/images/vscode/Untitled%201.png)
+![Untitled](/images/vscode/Untitled1.png)
 
 - python 실행을 위해 폴더를 만들고 그 안에 파일을 만든다
 - 명령어 python3 파일명를 입력한다 (wsl에서 실행해주며 파일을 저장해주어야 정상적으로 실행된다)
