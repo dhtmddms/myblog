@@ -19,9 +19,9 @@ date : 2022-05-03 09:25:00
 - next 버튼 클릭 후, 아래 화면이 나오면 경로를 변경해준다 ( 경로에 공백이 있으면 나중에 문제 됨)
 - change 클릭 → c드라이브 → 파일명 jdk로 바꾼다
 
-![](/images/spark_ins/.png)
+![](/images/spark/.png)
 
-![](/images/spark_ins/%201.png)
+![](/images/spark/%201.png)
 
 - ok 클릭 후 자바의 런타임 환경 폴더도 경로를 바꿔준다
 - c 드라이브에 새폴더 만들기 클릭 → 파일명  jre 로 지정해주면 끝
@@ -32,7 +32,7 @@ date : 2022-05-03 09:25:00
 
 - HTTP 아래 링크 클릭하여 다운로드
 
-![](/images/spark_ins/%202.png)
+![](/images/spark/%202.png)
 
 - tgz 파일을 열기 위해 WinRAR 프로그램 다운로드
     
@@ -42,7 +42,7 @@ date : 2022-05-03 09:25:00
 - spark 파일 안에 conf 파일 클릭 → [log4j.properties](http://log4j.properties) 파일을 연결 프로그램-메모장으로 연다
 - `log4j.rootCategory=INFO, console` 에서 INFO를 ERROR로 바꾼다
 
-![](/images/spark_ins/%203.png)
+![](/images/spark/%203.png)
 
 - winutils 파일 설치
     
@@ -93,4 +93,4 @@ date : 2022-05-03 09:25:00
 109
 ```
 
-출처: **[Spark Installation on Windows 10](https://dschloe.github.io/python/python_edu/00_settings/spark_installation_windows_10/)**
+출처: **[Spark Installation on Windows 10](https://dschloe.github.io/python/python_edu/00_settings/sparktallation_windows_10/)**
